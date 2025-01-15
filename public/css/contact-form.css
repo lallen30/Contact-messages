@@ -1,0 +1,76 @@
+.bluestoneapp-contact-form-wrapper {
+    max-width: 600px;
+    margin: 2em auto;
+    padding: 20px;
+}
+
+.bluestoneapp-contact-form-title {
+    margin-bottom: 1.5em;
+    text-align: center;
+}
+
+.bluestoneapp-contact-form .form-group {
+    margin-bottom: 1.5em;
+}
+
+.bluestoneapp-contact-form label {
+    display: block;
+    margin-bottom: 0.5em;
+    font-weight: 600;
+}
+
+.bluestoneapp-contact-form input[type="text"],
+.bluestoneapp-contact-form input[type="email"],
+.bluestoneapp-contact-form input[type="tel"],
+.bluestoneapp-contact-form textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.bluestoneapp-contact-form textarea {
+    resize: vertical;
+    min-height: 120px;
+}
+
+.bluestoneapp-contact-form .submit-group {
+    text-align: center;
+}
+
+.bluestoneapp-contact-submit {
+    background-color: #0073aa;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.bluestoneapp-contact-submit:hover {
+    background-color: #005177;
+}
+
+.bluestoneapp-contact-message {
+    margin-top: 1em;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.bluestoneapp-contact-message.success {
+    background-color: #dff0d8;
+    border: 1px solid #d6e9c6;
+    color: #3c763d;
+}
+
+.bluestoneapp-contact-message.error {
+    background-color: #f2dede;
+    border: 1px solid #ebccd1;
+    color: #a94442;
+}
+
+/* Hide honeypot field */
+.bluestoneapp-hp-field {
+    display: none !important;
+}
