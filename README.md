@@ -1,10 +1,10 @@
-# BluestoneApp Contact Us Plugin
+# BluestoneApps Contact Us Plugin
 
 A comprehensive WordPress contact form solution with advanced admin management, spam protection, and customization options.
 
 ## Description
 
-BluestoneApp Contact Us Plugin provides a feature-rich contact form solution for WordPress websites. It includes an intuitive admin interface for managing contact form submissions, customizable form fields, and email notifications.
+BluestoneApps Contact Us Plugin provides a feature-rich contact form solution for WordPress websites. It includes an intuitive admin interface for managing contact form submissions, customizable form fields, and email notifications.
 
 ## Features
 
@@ -33,7 +33,7 @@ BluestoneApp Contact Us Plugin provides a feature-rich contact form solution for
 
 ## Installation
 
-1. Upload the `bluestoneapp-contact-us` folder to the `/wp-content/plugins/` directory
+1. Upload the `BluestoneApps-contact-us` folder to the `/wp-content/plugins/` directory
 2. Activate the plugin through the 'Plugins' menu in WordPress
 3. Go to 'Contact Messages' in the admin menu to configure the plugin
 
@@ -41,7 +41,7 @@ BluestoneApp Contact Us Plugin provides a feature-rich contact form solution for
 
 ### Adding the Contact Form
 
-Use the shortcode `[bluestoneapp_contact_form]` in any post or page where you want the contact form to appear.
+Use the shortcode `[BluestoneApps_contact_form]` in any post or page where you want the contact form to appear.
 
 ### Managing Messages
 
@@ -67,13 +67,13 @@ The plugin can be customized through WordPress filters and actions:
 
 ```php
 // Customize form fields
-add_filter('bluestoneapp_contact_form_fields', 'custom_form_fields');
+add_filter('BluestoneApps_contact_form_fields', 'custom_form_fields');
 
 // Customize email template
-add_filter('bluestoneapp_contact_email_template', 'custom_email_template');
+add_filter('BluestoneApps_contact_email_template', 'custom_email_template');
 
 // Add custom validation
-add_filter('bluestoneapp_contact_validate_form', 'custom_validation');
+add_filter('BluestoneApps_contact_validate_form', 'custom_validation');
 ```
 
 ## Requirements
@@ -85,8 +85,8 @@ add_filter('bluestoneapp_contact_validate_form', 'custom_validation');
 ## Support
 
 For support, feature requests, or bug reporting, please contact:
-- Email: support@bluestoneapp.com
-- Website: https://bluestoneapp.com/plugins/contact-us
+- Email: support@BluestoneApps.com
+- Website: https://BluestoneApps.com/plugins/contact-us
 
 ## Changelog
 
@@ -112,4 +112,4 @@ of the License, or (at your option) any later version.
 
 ## Credits
 
-Developed by BluestoneApp - https://bluestoneapp.com
+Developed by BluestoneApps - https://BluestoneApps.com
